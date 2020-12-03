@@ -8,4 +8,8 @@ install:
 
 script:
   # - npm run test:unit && npm run test:snapshot
-  - npm run test
+  # - npm run test
+  - npm run build
+cache:
+  directories:
+    - node_modules
